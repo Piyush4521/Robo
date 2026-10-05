@@ -1,0 +1,100 @@
+# ==============================================================================
+# Git Ignore for 6-DOF Robotic Arm Project (Flutter App + Arduino Firmware)
+# ==============================================================================
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/build/
+**/doc/api/
+.history
+migrate_working_dir/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Specific
+**/android/.gradle/
+**/android/.kotlin/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/captures/
+**/android/.cxx/
+**/GeneratedPluginRegistrant.java
+
+# Android Keystore & Credentials
+*.keystore
+*.jks
+key.properties
+
+# iOS & macOS Specific
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+
+# Desktop Ephemeral Folders
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Arduino & Embedded Build Output
+*.hex
+*.elf
+*.bin
+*.eep
+*.o
+*.a
+*.d
+*.compiled
+*.ihex
+
+# Compiled Binaries & Release Packages
+*.apk
+*.aab
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs, Temp, and Crash Reports
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
